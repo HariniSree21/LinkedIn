@@ -5,13 +5,9 @@
         </title>
         <style>
             body{
-                background-color:hwb(194 65% 5%);
-                padding: 0%;
-                background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAaVBMVEX///8Al9MAlNJoueEAktGp0esAj9D4/f4qo9gAk9Hk8vn1+fwAkNCl0uv8//+jz+m93vCJyOduveJdtN/a7vjq9/x6weS43/HM6PXD5PMWndWn1e1MrdzV6/YypdlXtN+Wzel9vuOu2u9NrzrhAAADqElEQVR4nO2daXOiMABAObIgNroe4IGibv//j1yPdSvBSKcDCYnvfWhnTAy+SUJOSBAAAAAAAAAAAAAAAAAAAAAAAAAAAADAdyhm80VshsV8Vhj3y5ehzCJTZDJc5mYFV0kUmiVKVgb90r007HdB7j+MGe4zC4JhmO1NCa5s5OAFaaig5oklwTBMzNxulqZvMl9ESxOChTW/CybaxZmtWnhBzgwYzu3cSG9kcwOGC3vV8FwRFwYMY6uGMYYYYoghhhhiiKEZw8vUkc+GQhzixbEUwlPDrJzcRnD5qpeMtG4o4q/psKrsQdG2oahdv+hB0bJhNKrHzLsfK1s2TDZK1FXntxvLhiM1at55MbVrmJ0acUd+Gcp1I+6x60y0bKhWwx56eJYNt424nU+P2zUUk0bcg1+GzUWF7hcAbLeH6qLCxLf2UL18WnYtaNswlLtazGX3IyjbhqF4UJzGPSxSWTc8jy7udXF76GMMbN8wjKLjZLtdz0eil5mMARief4SQiexrjXEQhr2CIYbGDaNMRuXoMCpD8b07k23DSCYPyEQX8C+FTOznm3GRTtOPIt/FpWyXtN5rSz+uFLd/eakG3Eivmx0yMa/3Y9PZvnXHo2VD8aseM71PYoh6by7YnTsD2Sptpr1p6yYM1lAZOU7Ola45XL7SsivQGUNZarfgnV7uC3TGUIz16S9eFVRXDE+aInrj1dSHK4avNxhuX2SiK4Yt7F+0uH4YrvWZ6IlhqhX0xfDFRLIvhjttMXXMMC3yqnjSdwvG2lZ/sIa/n6RTxeVl/FHGT7o3XuTh6b4fRUTNVTltoz9Yw2YePnY/RfXta7hjWD0OIaLG80za5wHcMay3B1KtiiddRXTGUFl2a9RTbXPhjOGs3hw0fven84ZKPVO3GgWfupG+M4Z/1DSUcPcN1TSEEu6+oToCTJRwDPulC0O1V+ad4fSgfFM1XDtvqO7ow3CwhvfCiCGGGHaMiTuN9pl/bwydycMfl1Jn8vDeOVPH8K2GW+cN1Y2n/hn6n4cYvoGhbmkGw04wYbhxxHD6c0NH6iGGGA7f8P+kobr7Mmiba6sGahjFxfiRqtQE5Oo3ZVULL4a6uhbeX6gqrn9D0R5wR/lkqPtpDIAhhhhiiCGGGGKIIYYYYojhYAz9f5+3/+9k9/+9+v6fjeD/+RZvcEaJ/+fMvMFZQdbOe3r2JF9f+H5mV/AG564F/p+dBwAAAAAAAAAAAAAAAAAAAAAAAAAA4CZ/AW6tX0evanU/AAAAAElFTkSuQmCC');
-                background-repeat: no-repeat;
-                background-size: 50% 25%;
-                background: opacity 1;
-                background-position: center;
+
+                background-image:url('');
+
             }
             h1{
                 border-width: 13px 15px 13px 15px;
@@ -19,7 +15,24 @@
                 border-color: #ff7ac5 #5e9edd lightgreen hsl(70, 91%, 56%);
                 text-align: center;
             }
-    
+            .container {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .text{
+                flex: 1;
+                padding-right: 20px;
+            }
+            .image{
+                flex: 1;
+                padding-left: 20px;
+            }
+            img{
+                max-width: 100%;
+                height: auto;
+                display: block;
+            }
         </style>
     </head>
     <body>
@@ -27,21 +40,28 @@
         <h1 >   What is LinkedIn? </h1>
         <h2>LinkedIn is a professional networking platform where individuals create profiles to showcase their professional experience, skills, and achievements. Students can use LinkedIn to connect with professionals, join industry-related groups, and discover job or internship opportunities. It helps them build a professional online presence and network with potential mentors or employers.</h2>
         <h1>Why LinkedIn?</h1>
-        <h3 style="font-size:18px">LinkedIn helps students develop various skills, including:<br>
+       <div class="container">
+        <div class="text">
+        <p><h3 style="font-size:22px">LinkedIn helps students develop various skills, including:<br>
 
-1. *Networking Skills:* Students can connect with professionals, alumni, and peers, expanding their professional network.<br>
+1. *Networking Skills*<br>
 
-2. *Communication Skills:* Through interactions, messaging, and posting content, students can enhance their written communication skills.<br>
+2. *Communication Skills*<br>
 
-3. *Profile Optimization:* Crafting a compelling LinkedIn profile helps students effectively present their skills, experiences, and achievements.<br>
+3. *Profile Optimization*<br>
 
-4. *Research Skills:* Students can explore industries, companies, and career paths, gaining valuable insights for informed decision-making.<br>
+4. *Research Skills*<br>
 
-5. *Professional Branding:* Creating a strong personal brand on LinkedIn showcases a student's strengths and interests to potential employers.<br>
+5. *Professional Branding*<br>
 
-6. *Job Search Skills:* Using LinkedIn's job search feature helps students identify job opportunities, and they can learn about job requirements and industry trends.<br>
+6. *Job Search Skills*<br>
 
-</h3>
+</h3></p>
+</div>
+<div class="image">
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAaVBMVEX///8Al9MAlNJoueEAktGp0esAj9D4/f4qo9gAk9Hk8vn1+fwAkNCl0uv8//+jz+m93vCJyOduveJdtN/a7vjq9/x6weS43/HM6PXD5PMWndWn1e1MrdzV6/YypdlXtN+Wzel9vuOu2u9NrzrhAAADqElEQVR4nO2daXOiMABAObIgNroe4IGibv//j1yPdSvBSKcDCYnvfWhnTAy+SUJOSBAAAAAAAAAAAAAAAAAAAAAAAAAAAADAdyhm80VshsV8Vhj3y5ehzCJTZDJc5mYFV0kUmiVKVgb90r007HdB7j+MGe4zC4JhmO1NCa5s5OAFaaig5oklwTBMzNxulqZvMl9ESxOChTW/CybaxZmtWnhBzgwYzu3cSG9kcwOGC3vV8FwRFwYMY6uGMYYYYoghhhhiiKEZw8vUkc+GQhzixbEUwlPDrJzcRnD5qpeMtG4o4q/psKrsQdG2oahdv+hB0bJhNKrHzLsfK1s2TDZK1FXntxvLhiM1at55MbVrmJ0acUd+Gcp1I+6x60y0bKhWwx56eJYNt424nU+P2zUUk0bcg1+GzUWF7hcAbLeH6qLCxLf2UL18WnYtaNswlLtazGX3IyjbhqF4UJzGPSxSWTc8jy7udXF76GMMbN8wjKLjZLtdz0eil5mMARief4SQiexrjXEQhr2CIYbGDaNMRuXoMCpD8b07k23DSCYPyEQX8C+FTOznm3GRTtOPIt/FpWyXtN5rSz+uFLd/eakG3Eivmx0yMa/3Y9PZvnXHo2VD8aseM71PYoh6by7YnTsD2Sptpr1p6yYM1lAZOU7Ola45XL7SsivQGUNZarfgnV7uC3TGUIz16S9eFVRXDE+aInrj1dSHK4avNxhuX2SiK4Yt7F+0uH4YrvWZ6IlhqhX0xfDFRLIvhjttMXXMMC3yqnjSdwvG2lZ/sIa/n6RTxeVl/FHGT7o3XuTh6b4fRUTNVTltoz9Yw2YePnY/RfXta7hjWD0OIaLG80za5wHcMay3B1KtiiddRXTGUFl2a9RTbXPhjOGs3hw0fven84ZKPVO3GgWfupG+M4Z/1DSUcPcN1TSEEu6+oToCTJRwDPulC0O1V+ad4fSgfFM1XDtvqO7ow3CwhvfCiCGGGHaMiTuN9pl/bwydycMfl1Jn8vDeOVPH8K2GW+cN1Y2n/hn6n4cYvoGhbmkGw04wYbhxxHD6c0NH6iGGGA7f8P+kobr7Mmiba6sGahjFxfiRqtQE5Oo3ZVULL4a6uhbeX6gqrn9D0R5wR/lkqPtpDIAhhhhiiCGGGGKIIYYYYojhYAz9f5+3/+9k9/+9+v6fjeD/+RZvcEaJ/+fMvMFZQdbOe3r2JF9f+H5mV/AG564F/p+dBwAAAAAAAAAAAAAAAAAAAAAAAAAA4CZ/AW6tX0evanU/AAAAAElFTkSuQmCC" alt="linkedin logo">
+</div>
+</div>
     <marquee style="border:solid;direction:left;font-size:30px;"behavior="alternate" border="rgb(120, 5, 120)" scrollamount="11">To visit my LinkedIn profile</marquee><a href="https://www.linkedin.com/in/harini-sree-kareti-981984299"><h2 style="font-size:27px;text-align:center">CLICK HERE</h2></a>
     <marquee style="border:solid;direction:left;font-size:30px;"behavior="alternate" border="rgb(120, 5, 120)" scrollamount="11">To create a LinkedIn profile</marquee><a href="https://www.linkedin.com"><h2 style="font-size:27px;text-align:center">CLICK HERE</h2></a>
 </body>
